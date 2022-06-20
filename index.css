@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: sans-serif; 
+}
+
+#container {
+  margin-top: 100px;
+  width: 80%;
+  max-width: 400px;
+  margin-inline: auto;
+}
+
+h1 {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+p {
+  margin-bottom: 40px;
+  opacity: 0.7;
+}
+
+input, button {
+  display: block;
+  width: 100%;
+
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  transition: filter .2s;
+}
+
+/* pseudo-class :hover */
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+#resposta {
+  margin-top: 30px;
+
+  transition: opacity 1s;
+}
+
+#resposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+#social img {
+  margin-top: auto;
+  margin-bottom: 10px;
+  object-fit: cover; /* classe pra deixa a imagem com a proporção correta e não ficar achatada */
+}
